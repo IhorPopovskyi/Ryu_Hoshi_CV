@@ -14,4 +14,3 @@
 
 ### 👍 Thanks @volodymyr-kushnir for the first lecture about GIT.
 
-🧙Hocus-pocus!
