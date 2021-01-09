@@ -13,3 +13,5 @@
 | Donald Trump     | No | Yes | Yes | No | Yes | No |
 
 ### 👍 Thanks @volodymyr-kushnir for the first lecture about GIT.
+
+🧙Hocus-pocus!
