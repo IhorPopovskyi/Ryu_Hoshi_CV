@@ -574,6 +574,11 @@ article {
 }
 
 /* Avatar */
+.avatar-container {
+    padding: 0 !important;
+    margin-top: 20px !important;
+}
+
 .avatar-wrapper {
     padding: 0 1em;
     display: flex;
