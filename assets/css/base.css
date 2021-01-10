@@ -268,6 +268,11 @@ article {
     margin-right: auto;
 }
 
+.description {
+    margin: 3px 0 10px !important;
+}
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     article {
         width: 723px;
@@ -313,7 +318,7 @@ article {
     top: 2em;
     right: 2em;
     bottom: 2em;
-    border-color: inherit;
+    border-color: teal;
     border-width: 1em;
     border-style: solid;
     pointer-events: none;
@@ -339,13 +344,13 @@ article {
 }
 
 /**
-   * # Semantic UI - 2.4.2
-   * https://github.com/Semantic-Org/Semantic-UI
-   * https://www.semantic-ui.com/
-   * Copyright 2014 Contributors
-   * Released under the MIT license
-   * https://opensource.org/licenses/MIT
-   */
+ * # Semantic UI - 2.4.2
+ * https://github.com/Semantic-Org/Semantic-UI
+ * https://www.semantic-ui.com/
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * https://opensource.org/licenses/MIT
+ */
 .grid {
     display: flex;
     flex-direction: row;
@@ -353,9 +358,9 @@ article {
     align-items: stretch;
     padding: 0;
     /**
-     * Temporary hack to be sure avatar
-     * is rendered on print preview
-     */
+   * Temporary hack to be sure avatar
+   * is rendered on print preview
+   */
     display: block !important;
 }
 
@@ -569,13 +574,8 @@ article {
 }
 
 /* Avatar */
-.avatar-container {
-    padding: 0 !important;
-}
-
 .avatar-wrapper {
     padding: 0 1em;
-    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -673,16 +673,32 @@ article {
     color: #3b5998;
 }
 
-.contacts li a.instagram:hover {
-    color: #EE564F;
+.contacts li a.github:hover {
+    color: dimgrey;
 }
 
 .contacts li a.mail:hover {
     color: dimgrey;
 }
 
-.contacts li a.twitter:hover {
+.contacts li a.skype:hover {
+    color: #00aff0;
+}
+
+.contacts li a.linkedin:hover {
+    color: #0077b5;
+}
+
+.contacts li a.telegram:hover {
     color: #0088cc;
+}
+
+.contacts li a.phone:hover {
+    color: dimgrey;
+}
+
+.contacts li a.website {
+    display: none;
 }
 
 .contacts li a .icon {
@@ -1116,7 +1132,7 @@ header+main {
 main {
     overflow: auto;
     z-index: 2;
-    background: white;
+    background: teal;
     position: relative;
 }
 
@@ -1130,11 +1146,12 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: whitesmoke;
+    background: teal;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 1;
+    text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
